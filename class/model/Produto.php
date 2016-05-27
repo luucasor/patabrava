@@ -9,7 +9,7 @@
 		private $preco_compra;
 		private $preco_venda;
 		private $quantidade;
-		private $id_categoria;
+		private $categoria;
 		private $imagem1;
 		private $imagem2;
 		private $imagem3;
@@ -91,12 +91,12 @@
 			$this->quantidade = $quantidade;
 		}
 
-		public function getIdCategoria(){
-			return $this->id_categoria;
+		public function getCategoria(){
+			return $this->categoria;
 		}
 
-		public function setIdCategoria($Id_categoria){
-			$this->id_categoria = $id_categoria;
+		public function setCategoria($categoria){
+			$this->categoria = $categoria;
 		}
 
 		public function getImagem1(){
